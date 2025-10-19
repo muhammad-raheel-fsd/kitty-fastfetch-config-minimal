@@ -43,13 +43,13 @@ fastfetch --config ~/.config/fastfetch/config.jsonc
 1- install kitty
 
 ```bash
-yay -S kitty
+yay -S kitty && sudo pacman -S ttf-jetbrains-mono-nerd
 ```
 
 or
 
 ```bash
-pacman -S kitty
+pacman -S kitty && sudo pacman -S ttf-jetbrains-mono-nerd
 ```
 
 2- paste [kitty.conf](kitty.conf) in .config/kitty/kitty.conf
@@ -60,7 +60,7 @@ sudo nano .config/kitty/kitty.conf
 
 # Starship prompt configuration
 
-1- Install starship
+1- Install starship & nerd fonts for kitty
 
 ```bash
 yay -S starship
